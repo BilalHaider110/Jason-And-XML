@@ -1,0 +1,9 @@
+<!ELEMENT Aptech (Student*)>
+<!ELEMENT Student (Name , Gender , Age , Email , PhoneNumber , EnrollmentNumber)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Gender (#PCDATA)>
+<!ELEMENT Age (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT PhoneNumber (#PCDATA)>
+<!ELEMENT EnrollmentNumber (#PCDATA)>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- External dtd link -->
+<?xml-model href="index.xsd" type="application/xml-xsd"?>
+
+<!-- internal dtd -->
+<!-- <!DOCTYPE Aptech
+[
+<!ELEMENT Aptech (Student*)>
+<!ELEMENT Student (Name , Gender , Age , Email , PhoneNumber , EnrollmentNumber)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Gender (#PCDATA)>
+<!ELEMENT Age (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT PhoneNumber (#PCDATA)>
+<!ELEMENT EnrollmentNumber (#PCDATA)>
+]> -->
+
+<Aptech>
+    <Student>
+        <Name>Ali</Name>
+        <Gender>Male</Gender>
+        <Age>24</Age>
+        <Email>Ali3572@gmail.com</Email>
+        <PhoneNumber>045723683791</PhoneNumber>
+        <EnrollmentNumber>0004</EnrollmentNumber>
+    </Student>
+
+    <Student>
+        <Name>Bilal</Name>
+        <Gender>Male</Gender>
+        <Age>57</Age>
+        <Email>Bh783572@gmail.com</Email>
+        <PhoneNumber>0246279273</PhoneNumber>
+        <EnrollmentNumber>0003</EnrollmentNumber>
+    </Student>
+
+    <Student>
+        <Name>Catlyn</Name>
+        <Gender>Female</Gender>
+        <Age>47</Age>
+        <Email>cat6763572@gmail.com</Email>
+        <PhoneNumber>023517864</PhoneNumber>
+        <EnrollmentNumber>0002</EnrollmentNumber>
+    </Student>
+
+    <Student>
+        <Name>Dabeer</Name>
+        <Gender>Male</Gender>
+        <Age>94</Age>
+        <Email>dbe673572@gmail.com</Email>
+        <PhoneNumber>02376286</PhoneNumber>
+        <EnrollmentNumber>0001</EnrollmentNumber>
+    </Student>
+</Aptech>
